@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/* body{ background:url(../images/wasi1.jpeg);} */
+
+/*---------------------------------firefox fade対策----------*/
+
+img { box-shadow: #000 0 0 0; }
+
+img, x:-moz-any-link, x:default { box-shadow: #000 0 0 0; }
+
+
+/*----------------------------------------------------------------------------------concept----------*/
+
+/*コンセプト全体*/
+#concept{
+padding:100px 0;
+width:960px;
+margin:0 auto;
+background: #ffffff9d;
+
+}
+/*コンセプトtop見出し*/
+#h2_cpt{ 
+text-align:center;
+line-height:1.0;
+}
+/*topメッセージ*/
+#h3_cpt{ 
+text-align:center;
+line-height:1.0;
+margin:50px 0px;
+}
+
+/*全体*/
+/* #shop1,#shop2,#setumei,#setumei2{ margin:62px 0; } */
+
+#shop1,#shop2{
+    background: #f5f5f5b7;
+}
+
+#shop1 .slide{ 
+    float:left;
+    width:360px;
+    padding:44px 10px;
+}
+
+#shop2 .slide{ 
+    float: right;
+    width:360px;
+    padding:44px 10px;
+}
+    
+#about .slide ul,#shop1 .slide ul,#shop2 .slide ul{ 
+height:360px;
+overflow:hidden;
+z-index:0;
+}
+
+#shop2 .slide{ margin-left:30px; }
+#setumei .slide{ margin:0px 300px ; }
+#setumei2 .slide{ margin: 0px 300px ; }
+#list{
+    padding-top:20px; 
+}
+
+#shop1 .text{
+float:right;
+width:400px;
+margin-left:60px;
+line-height:2.6;
+}
+
+#shop2 .text{
+    float: left;
+    width:400px;
+    line-height:2.6;
+    padding:80px 50px 0px;
+}
+
+#shop1 .text{ 
+    margin: 80px 50px 0px;
+}
+
+#shop1 .text a,#shop2 .text a{ margin-right: 10px; color:#554630;
+}
+
+
+
+
+#produce h2{ 
+margin-top:80px;
+text-align:center;
+line-height:1.0;
+}
+
+#company{ 
+margin-top:60px;
+background:url(../images/vs.png) no-repeat center top;
+}
+
+.mb{
+width:400px;
+float:left;
+padding:20px 40px 30px;
+}
+
+.tab{
+width:400px;
+float:right;
+padding:20px 40px 30px;
+}
+
+.mb h3, .tab h3{ 
+text-align:center;
+padding-bottom:24px;
+}
+
+#company p a:hover{ color:#999; }
+
+
+

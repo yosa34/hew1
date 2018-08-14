@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+/*---------------------------------firefox fade対策----------*/
+
+img { box-shadow: #000 0 0 0; }
+
+img, x:-moz-any-link, x:default { box-shadow: #000 0 0 0; }
+
+
+/*--------------------------------------------header----------*/
+canvas{
+    display:block;
+    vertical-align:bottom;
+    }
+#header{
+width:100%;
+min-width:960px;
+height:400px;
+position:relative;
+text-align: center;
+}
+#bloom{
+width: 150px;
+height: 150px;
+}
+
+
+/* topimg*/
+#particles-js{
+width:100%;
+height:400px;
+position:absolute;
+top:0;
+z-index:-1;
+/* ["images/slider1.jpg", "images/1.jpg", "images/milbon2.jpg","main_image.jpg"] */
+background:  url("../images/slider1.jpg");
+background-size:100%;
+background-repeat: no-repeat;
+}
+ 
+/*nav全体*/
+#header_nav{ 
+background-repeat: repeat-x;
+}
+/*list全体*/
+#gnav{ 
+    background: url("../images/g_navi_haikei.jpg");
+    margin: 0 auto;
+    overflow: hidden;
+    }
+/*liについて*/
+#gnav li{ 
+    width: 150px;
+    float: left;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border-left:solid 1px #493915;
+    border-right:solid 1px #493915;
+}
+#gnav a{
+    display:block;
+    text-align: center;
+    width: 150px;
+}
+#gnav span{
+    display:block;
+    width: 150px;
+
+}
+
+/*ヘッドのjQery用*/
+.fixed {
+    background-size: auto 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:5px 0 5px 60px;
+    margin-top:0px !important;
+    z-index:100;
+}
+#header h2{
+    text-align:right;
+    margin:300px 60px 0 0;
+     font-size: 100px;
+     color: #0e0039;
+}
+

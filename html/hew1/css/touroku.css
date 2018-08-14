@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+ body{ background:url(../images/kabe1.jpg);} 
+
+/*---------------------------------firefox fade対策----------*/
+
+img { box-shadow: #000 0 0 0; }
+
+img, x:-moz-any-link, x:default { box-shadow: #000 0 0 0; }
+
+
+/*-----------------------concept----------*/
+
+/*コンセプト全体*/
+#concept{
+padding:100px 0;
+width:960px;
+margin:0 auto;
+background: #ffffff9d;
+
+}
+/*コンセプトtop見出し*/
+#h2_cpt{ 
+text-align:center;
+line-height:1.0;
+font-size: 30px ;
+}
+/*topメッセージ*/
+#h3_cpt{ 
+text-align:center;
+line-height:1.0;
+margin:50px 0px;
+color: #ff0000;
+}
+/*全体*/
+#about,#shop,#yoyaku{ margin:62px 0; }
+#shop{ background: #f5f5f5;}
+
+#about .slide,#yoyaku .slide{ 
+float:left;
+width:360px;
+padding:44px 10px;
+}
+
+#shop .slide{ 
+    float: right;;
+    width:360px;
+    padding:44px 10px;
+    }
+    
+    #about .slide ul ,#shop .slide ul,#yoyaku .slide ul{ 
+height:360px;
+overflow:hidden;
+z-index:0;
+}
+
+#about .text{
+float:right;
+width:400px;
+margin-left:60px;
+line-height:2.6;
+}
+#shop .text{
+    float: left;;
+    width:400px;
+    margin-right:60px;
+    line-height:2.6;
+    }
+#about .text { margin-top: 50px ;}
+#shop .text p,#yoyaku .text p{ margin-top:100px; }
+
+.midasi{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+#produce h2{ 
+margin-top:80px;
+text-align:center;
+line-height:1.0;
+}
+
+#company{ 
+margin-top:60px;
+background:url(../images/vs.png) no-repeat center top;
+}
+
+.mb{
+width:400px;
+float:left;
+padding:20px 40px 30px;
+}
+
+.tab{
+width:400px;
+float:right;
+padding:20px 40px 30px;
+}
+
+.mb h3, .tab h3{ 
+text-align:center;
+padding-bottom:24px;
+}
+
+#company p a:hover{ color:#999; }
+

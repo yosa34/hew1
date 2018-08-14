@@ -1,0 +1,60 @@
+/*-------------------contact----------*/
+
+#contact{
+    background:url(../images/kabe1.jpg);
+    padding:80px 0 100px;
+    font-size:12px;
+    }
+    
+    #contact_inner{
+    width:960px;
+    margin:0 auto;
+    }
+    
+    #contact h2{ 
+    text-align:center;
+    /* line-height:1.0; */
+    }
+    
+    .contact_cont{ margin-top:50px; }
+    
+    .info{
+    float:left;
+    width:430px;
+    height: 280px;
+    line-height:2.5;
+    margin-left: 20px;
+    background: url(../images/waku1.png);
+    background-size:430px 280px; 
+    }
+    
+    .info p.mk{ margin:60px 60px;}
+    .info_tizu{
+        float: right;
+        width:430px;
+        height: 280px;
+
+        line-height:2.5;
+        
+        background: url(../images/waku1.png);
+        background-size:430px 280px; 
+        
+        
+    }
+    
+    
+    /*-----------------------------------page_top------------*/
+    
+    .page {
+    position: fixed;
+    bottom: 55px;
+    right: 50px;
+    }
+    
+     
+    
+    
+    
+    
+    
+    
